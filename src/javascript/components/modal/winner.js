@@ -1,3 +1,11 @@
+import { createFighterImage } from "../fighterPreview";
+import { showModal } from "./modal";
+
 export function showWinnerModal(fighter) {
-  // call showModal function 
+  const winner = {
+    title: `${fighter.name} win`,
+    bodyElement: createFighterImage(fighter),
+    onClose: () => location.reload()
+  };
+  showModal(winner);
 }

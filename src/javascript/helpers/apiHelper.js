@@ -36,7 +36,7 @@ async function fakeCallApi(endpoint) {
   });
 }
 
-function getFighterById(endpoint) {
+export function getFighterById(endpoint) {
   const start = endpoint.lastIndexOf('/');
   const end = endpoint.lastIndexOf('.json');
   const id = endpoint.substring(start + 1, end);
