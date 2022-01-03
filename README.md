@@ -7,18 +7,19 @@
 `npm run start`
 
 
-`controls:`
 
-###Player one attack: A
+##controls:
 
-###Player one block: D
+Player one attack: A
 
-###Player two attack: J
+Player one block: D
 
-###Player two block: L
+Player two attack: J
 
-###Player one critical hit combination: Q + W + E
+Player two block: L
 
-###Player two critical hit combination: U + I + O
+Player one critical hit combination: Q + W + E
+
+Player two critical hit combination: U + I + O
 
 open http://localhost:8080/
