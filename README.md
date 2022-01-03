@@ -8,7 +8,7 @@
 
 
 
-##controls:
+## controls:
 
 Player one attack: A
 
