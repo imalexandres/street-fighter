@@ -101,7 +101,6 @@ export async function fight(firstFighter, secondFighter) {
     })
 
   });
-    // resolve the promise with the winner when fight is over
 }
 
 function validateAttack(attacker, defender) {
@@ -117,7 +116,6 @@ function changeHealthBar(indicatorPosition, playerHp, maxPlayerHp) {
 export function getDamage(attacker, defender) {
   const damageRaw = getHitPower(attacker) - getBlockPower(defender);
   return damageRaw > 0 ? damageRaw : 0;
-  // return damage
 }
 
 export function getCriticalHit(fighter) {
@@ -126,12 +124,10 @@ export function getCriticalHit(fighter) {
 export function getHitPower(fighter) {
   const criticalHitChance = Math.random() + 1;
   return fighter.attack * criticalHitChance;
-  // return hit power
 }
 
 export function getBlockPower(fighter) {
 
   const dodgeChance = Math.random() + 1;
   return fighter.defense * dodgeChance;
-  // return block power
 }

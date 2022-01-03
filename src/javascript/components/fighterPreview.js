@@ -13,7 +13,6 @@ export function createFighterPreview(fighter, position) {
     const info = createFighterInfo(fighter);
     fighterElement.append(image, info);
   }
-  // todo: show fighter info (image, name, health, etc.)
 
 
   return fighterElement;
